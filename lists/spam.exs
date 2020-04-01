@@ -7,13 +7,13 @@ defmodule MyList do
 
   def span(a, a), do: []
 
-  def span(a, b) when b < a do
-    raise("a must be greater than b")
-  end
-
   def span(a, b) when b > a do
     span(a, b, [a + 1])
   end
+
+  def span(a, b) when b < a do
+    raise("a must be greater than b")
+  end
 end
 
-IO.inspect(MyList.span(77774, 77778))
+IO.inspect(MyList.span(332, 345))
