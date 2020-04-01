@@ -25,4 +25,5 @@ defmodule Guess do
   end
 end
 
+# TODO: There is still a bug here if you pick 999
 Guess.guess(1000, 1..1000)
