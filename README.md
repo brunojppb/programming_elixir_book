@@ -9,4 +9,5 @@ Reading, learning and taking the challenges of the book [Programming Elixir](htt
 * [x] Functions and modules
 * [x] Pattern matching
 * [x] Lists and pattern matching within pattern matching
-* [ ] Maps and data structures
+* [x] Maps and data structures
+* [x] Streams
