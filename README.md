@@ -8,6 +8,7 @@ Reading, learning and taking the challenges of the book [Programming Elixir](htt
 * [x] Anonymous Functions
 * [x] Functions and modules
 * [x] Pattern matching
-* [x] Lists and pattern matching within pattern matching
+* [x] Lists and pattern matching within a pattern match
 * [x] Maps and data structures
 * [x] Streams
+* [x] Concurrent programming
