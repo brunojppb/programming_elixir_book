@@ -14,4 +14,5 @@ Reading, learning and taking the challenges of the book [Programming Elixir](htt
 * [x] Concurrent programming
 * [x] Sending and receiving messages to child processes
 * [x] Agents
-* [ ] Nodes and Distributed services
+* [x] Nodes and Distributed services
+* [ ] OTP - Open Telecom Platform
