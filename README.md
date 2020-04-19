@@ -12,3 +12,5 @@ Reading, learning and taking the challenges of the book [Programming Elixir](htt
 * [x] Maps and data structures
 * [x] Streams
 * [x] Concurrent programming
+* [x] Sending and receiving messages to child processes
+* [ ] Agents
