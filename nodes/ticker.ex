@@ -17,14 +17,18 @@ defmodule Ticker do
   def generator(clients) do
     receive do
       { :register, pid } ->
-        IO.puts "registering #{inspect(pid)}"
+        IO.puts "registering client with PID #{inspect(pid)}"
         generator([pid | clients])
     after
       @interval ->
         IO.puts "tick"
-        Enum.each clients, fn client ->
+        send_tick = fn client ->
+          IO.puts "sending tick to client #{inspect(client)}"
           send client, { :tick }
         end
+        clients
+          |> Enum.reverse()
+          |> Enum.each(send_tick)
         generator(clients)
     end
   end
